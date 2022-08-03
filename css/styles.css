@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  color: #187498;
+  font-size: 562%;
+  font-family: 'Sacramento', cursive;
+}
+
+.hello {
+  text-shadow: 3px 3px 4px #A2B38B;
+}
+
+.Name {
+  text-shadow: 7px 7px 7px #A2B38B;
+}
+
+h2 {
+  color: #635666;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+.skillo {
+  text-shadow: 4px 4px 4px #A2B38B;
+}
+
+.top-container {
+  background-color: #CEE5D0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 50px;
+  height: 650px;
+  margin-bottom: 20px;
+}
+
+.college {
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px pink;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 320px;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+.cloud1 {
+  position: absolute;
+  right: 320px;
+  top: 70px;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+.btech {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+}
+
+.mountains {
+  position: absolute;
+  right: auto;
+  left: 450px;
+  top: auto;
+  filter: drop-shadow(6px 6px 6px grey);
+  bottom: 0;
+}
+
+.profilepic {
+  padding-top: 20px;
+  height: 200px;
+  filter: drop-shadow(6px 6px 6px grey);
+}
+
+.skillimg {
+  filter: drop-shadow(6px 6px 6px grey);
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+
+}
+
+.burger {
+  filter: drop-shadow(6px 6px 6px grey);
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.guitar {
+  width: 25%;
+  filter: drop-shadow(6px 6px 6px grey);
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.rubik {
+  width: 25%;
+  filter: drop-shadow(6px 6px 6px grey);
+  float: right;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.middle-container {
+  background-color: #DFE8CC;
+}
+.bio{
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding-bottom: 20px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 2;
+}
+.bottom-container {
+  background-color: #C3E5AE;
+
+}
+
+.contact-me {
+  padding-top: 20px;
+  background-color: #FFF89C;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto auto auto;
+  line-height: 2;
+  text-align: left;
+  padding-top: 10px;
+}
+.skillrow {
+  width: 50%;
+  margin: 100px auto auto auto;
+  line-height: 2;
+  text-align: right;
+  padding-top: 10px;
+}
+.cod{
+  margin: auto auto 0 auto;
+}
+.cont{
+  text-shadow: 3px 3px 4px #A2B38B;
+
+}
