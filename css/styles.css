@@ -1,0 +1,244 @@
+a{
+color: #11999E;
+margin: 10px 10px;
+text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.bio {
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding-bottom: 20px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 2;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  font-weight: bold;
+}
+
+.bottom-container {
+  background-color: #C3E5AE;
+}
+
+.btech {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+}
+
+.burger {
+  filter: drop-shadow(6px 6px 6px grey);
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.btn{
+  width:130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background: #187498;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  transition: all .4s;
+}
+.btn:hover{
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959,
+  0 15px 0 -4px #39a2db,
+  0 16px 10px -3px #39a2db;
+}
+.cloud1 {
+  position: absolute;
+  right: 320px;
+  top: 70px;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+.college {
+  text-decoration: none;
+  text-shadow: 2px 2px 3px pink;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 320px;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+.cloud1:hover {
+  filter: drop-shadow(16px 16px 16px grey)
+}
+
+.cloud2:hover {
+  filter: drop-shadow(16px 16px 16px grey)
+}
+
+.contact-me {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto 0 auto;
+  background-color: #66BFBF;
+  text-align: center;
+}
+
+.cod {
+  margin: auto auto 0 auto;
+}
+
+.guitar {
+  width: 25%;
+  filter: drop-shadow(6px 6px 6px grey);
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  color: #187498;
+  font-size: 562%;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #187498;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  text-shadow: 0 5px 5px grey;
+}
+hr {
+border-style:none;
+border-top-style: dotted;
+background-color: white;
+border-color: #66BFBF;
+border-width: 7px;
+width: 5%
+}
+.links{
+  margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+width: 500px;
+text-align: center;  
+}
+.touchnote{
+    font-size: 1.00rem;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2;
+    line-height: 2;
+}
+.mountains {
+  position: absolute;
+  right: auto;
+  left: 450px;
+  top: auto;
+  filter: drop-shadow(6px 6px 6px grey);
+  bottom: 0;
+}
+
+.mountains:hover {
+  filter: drop-shadow(16px 16px 16px grey)
+}
+
+.Name {
+  text-shadow: 7px 7px 7px #A2B38B;
+}
+
+.Name:hover {
+  color: #2B7A0B
+}
+
+.profile {
+  margin: 0 auto 0 auto;
+}
+
+.profilepic {
+  padding-top: 20px;
+  height: 200px;
+  filter: drop-shadow(6px 6px 6px grey);
+}
+
+.profilepic:hover {
+  filter: drop-shadow(16px 16px 16px grey);
+
+}
+
+.rubik {
+  width: 25%;
+  filter: drop-shadow(6px 6px 6px grey);
+  float: right;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.rb{
+  margin-bottom: 0;
+  color: white;
+  font-size: 0.7rem;
+}
+.skillimg {
+  filter: drop-shadow(6px 6px 6px grey);
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.skills {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto auto auto;
+  line-height: 2;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.skillo {
+  margin-top: 0;
+}
+
+.skillrow {
+  width: 50%;
+  margin: 100px auto auto auto;
+  line-height: 2;
+  text-align: right;
+  padding-top: 10px;
+}
+.touch{
+  text-align:center;
+  width: 50%;
+  letter-spacing: 2;
+  margin: 100px auto auto auto;
+}
+.top-container {
+  background-color: #CEE5D0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 50px;
+  height: 650px;
+  margin-bottom: 0;
+}
