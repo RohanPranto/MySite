@@ -136,8 +136,10 @@ width: 5%
 margin-right: auto;
 border-collapse: collapse;
 width: 500px;
-text-align: center;  
+text-align: center;
 }
+
+
 .touchnote{
     font-size: 1.00rem;
     font-weight: 600;
@@ -147,9 +149,7 @@ text-align: center;
 }
 .mountains {
   position: absolute;
-  right: auto;
   left: 450px;
-  top: auto;
   filter: drop-shadow(6px 6px 6px grey);
   bottom: 0;
 }
@@ -241,4 +241,21 @@ text-align: center;
   padding-top: 50px;
   height: 650px;
   margin-bottom: 0;
+}
+@media (max-width: 1028px) {
+  .top-container{
+    justify-content: center;
+
+  }
+  .mountains{
+    height: 250px;
+    left: 150px;}
+    .cloud1{
+      height: 25px;
+      left:200px;
+    }
+    .cloud2{
+      height: 30px;
+      left:400px;
+    }
 }
