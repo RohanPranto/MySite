@@ -1,11 +1,13 @@
-a{
-color: #11999E;
-margin: 10px 10px;
-text-decoration: none;
+a {
+  color: #11999E;
+  margin: 10px 10px;
+  text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: #EAF6F6;
 }
+
 .bio {
   width: 50%;
   margin: 10px auto 10px auto;
@@ -41,8 +43,9 @@ body {
   margin-left: 20px;
   margin-top: 20px;
 }
-.btn{
-  width:130px;
+
+.btn {
+  width: 130px;
   height: 40px;
   font-size: 1.1em;
   cursor: pointer;
@@ -52,13 +55,15 @@ body {
   border: none;
   transition: all .4s;
 }
-.btn:hover{
+
+.btn:hover {
   border-radius: 5px;
   transform: translateY(-10px);
   box-shadow: 0 7px 0 -2px #f85959,
-  0 15px 0 -4px #39a2db,
-  0 16px 10px -3px #39a2db;
+    0 15px 0 -4px #39a2db,
+    0 16px 10px -3px #39a2db;
 }
+
 .cloud1 {
   position: absolute;
   right: 320px;
@@ -97,6 +102,19 @@ body {
   margin: auto auto 0 auto;
 }
 
+.links img {
+  width: 25%;
+}
+
+.links img:hover {
+  cursor: pointer;
+}
+
+.footer-link {
+  font-size: 1rem;
+  color: black;
+}
+
 .guitar {
   width: 25%;
   filter: drop-shadow(6px 6px 6px grey);
@@ -109,7 +127,7 @@ h1 {
   margin: 0 auto 0 auto;
   padding-top: 50px;
   color: #187498;
-  font-size: 562%;
+  font-size: 8vh;
   font-family: 'Sacramento', cursive;
 }
 
@@ -123,33 +141,33 @@ h3 {
   font-size: 30px;
   text-shadow: 0 5px 5px grey;
 }
+
 hr {
-border-style:none;
-border-top-style: dotted;
-background-color: white;
-border-color: #66BFBF;
-border-width: 7px;
-width: 5%
+  border-style: none;
+  border-top-style: dotted;
+  background-color: white;
+  border-color: #66BFBF;
+  border-width: 7px;
+  width: 5%
 }
-.links{
+
+.links {
   margin-left: auto;
-margin-right: auto;
-border-collapse: collapse;
-width: 500px;
-text-align: center;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 
-.touchnote{
-    font-size: 1.00rem;
-    font-weight: 600;
-    font-family: 'Comfortaa', cursive;
-    letter-spacing: 2;
-    line-height: 2;
+.touchnote {
+  font-size: 1.00rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 2;
+  line-height: 2;
 }
+
 .mountains {
-  position: absolute;
-  left: 450px;
   filter: drop-shadow(6px 6px 6px grey);
   bottom: 0;
 }
@@ -188,23 +206,19 @@ text-align: center;
   margin-left: 20px;
   margin-top: 15px;
 }
-.rb{
+
+.rb {
   margin-bottom: 0;
   color: white;
   font-size: 0.7rem;
 }
+
 .skillimg {
   filter: drop-shadow(6px 6px 6px grey);
   width: 25%;
   float: left;
   margin-right: 20px;
   margin-top: 5px;
-}
-
-.skills {
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: white;
 }
 
 .skill-row {
@@ -215,10 +229,6 @@ text-align: center;
   padding-top: 10px;
 }
 
-.skillo {
-  margin-top: 0;
-}
-
 .skillrow {
   width: 50%;
   margin: 100px auto auto auto;
@@ -226,12 +236,24 @@ text-align: center;
   text-align: right;
   padding-top: 10px;
 }
-.touch{
-  text-align:center;
-  width: 50%;
-  letter-spacing: 2;
+
+.skills {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.skillo {
+  margin-top: 0;
+}
+
+.touch {
+  text-align: center;
+  width: 70%;
+  letter-spacing: 1.5;
   margin: 100px auto auto auto;
 }
+
 .top-container {
   background-color: #CEE5D0;
   margin: 0;
@@ -239,23 +261,89 @@ text-align: center;
   justify-content: center;
   position: relative;
   padding-top: 50px;
-  height: 650px;
+  height: 100%;
   margin-bottom: 0;
 }
-@media (max-width: 1028px) {
-  .top-container{
+
+@media screen and (max-width:1020px) {
+  .top-container {
     justify-content: center;
+    padding: auto 50px;
+  }
+
+  .mountains {
+    height: 250px;
+    left: 150px;
+  }
+
+  .cloud1 {
+    height: 55px;
+    left: 200px;
+  }
+
+  .cloud2 {
+    height: 70px;
+    left: 600px;
+  }
+
+  .mountains {
+    height: 400px;
+    margin-top: 70px;
+  }
+
+  .skills h3 {
+    font-size: 3.5rem;
 
   }
-  .mountains{
-    height: 250px;
-    left: 150px;}
-    .cloud1{
-      height: 25px;
-      left:200px;
-    }
-    .cloud2{
-      height: 30px;
-      left:400px;
-    }
+
+  .skill-row {
+    width: 70%;
+    margin: 100px auto auto auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 2rem;
+  }
+
+  .links .footer-link {
+    font-size: 2rem;
+  }
+
+  .skillrow {
+    font-size: 2rem;
+    width: 70%;
+    margin: 100px auto auto auto;
+    line-height: 2;
+    text-align: right;
+  }
+
+  span {
+    font-size: 1.5em;
+  }
+
+  .bio {
+    font-size: 2rem;
+  }
+
+  .profilepic {
+    width: 30%;
+    height: 30%;
+  }
+
+  .touch h2 {
+    font-size: 3.5rem;
+  }
+
+  .touch p {
+    font-size: 2.5rem;
+  }
+
+  .btech {
+    font-size: 2.5rem;
+  }
+
+  .touch a {
+    font-size: 2.5rem;
+    padding: 10px;
+    border-radius: 20px;
+  }
 }
